@@ -13,7 +13,7 @@ Projekt iz kolegija Uvod u znanost o podacima (UZOP), izrađen u Pythonu (Jupyte
 
 ## Rezultati
 
-Prema prezentaciji, najbolji je bio Random Forest na binarnoj ciljnoj varijabli (Set B) s točnošću oko 91%. Uz točnost smo izračunali i preciznost, odziv i F1-mjeru, jer je skup nebalansiran (najveća klasa ima oko 12 puta više primjera od najmanje), a na višeklasnom skupu (Set A) točnost je znatno niža. Usporedba s člankom nalazi se u prezentaciji i u zadnjem dijelu treće bilježnice.
+Najbolji je bio Random Forest na binarnoj ciljnoj varijabli (Set B) s točnošću oko 91%. Uz točnost smo izračunali i preciznost, odziv i F1-mjeru, jer je skup nebalansiran (najveća klasa ima oko 12 puta više primjera od najmanje), a na višeklasnom skupu (Set A) točnost je znatno niža. Usporedba s člankom nalazi se u prezentaciji i u zadnjem dijelu treće bilježnice.
 
 ### Razlike u odnosu na članak
 
@@ -24,12 +24,6 @@ Prema prezentaciji, najbolji je bio Random Forest na binarnoj ciljnoj varijabli 
 ## Tehnologije
 
 Python, pandas, NumPy, scikit-learn, seaborn, Matplotlib, Plotly
-
-## Pokretanje
-
-```bash
-pip install pandas numpy scikit-learn seaborn matplotlib plotly
-```
 
 Bilježnice se pokreću ovim redoslijedom: drugi dio sprema datoteke `heart_failure_train_ready.csv` i `heart_failure_train_ready_standard.csv`, koje učitava treći dio. CSV datoteke moraju biti u istoj mapi kao bilježnice.
 
